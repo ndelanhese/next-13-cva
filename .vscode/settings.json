@@ -11,4 +11,7 @@
   "[typescript]": {
     "editor.formatOnSave": false
   },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
 }

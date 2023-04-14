@@ -51,6 +51,12 @@
         "import/no-extraneous-dependencies": "off",
         "no-plusplus": "off"
       }
+    },
+    {
+       "files": ["src/components/**/*.js", "src/components/**/*.jsx"],
+      "rules": {
+        "jsx-props-no-spreading": "off"
+      }
     }
   ],
   "rules": {
@@ -72,14 +78,8 @@
       }
     ],
     "react/jsx-props-no-spreading": [
-      "error",
-      {
-        "html": "enforce",
-        "custom": "ignore",
-        "explicitSpread": "enforce"
-      }
+      "off"
     ],
-
     "no-use-before-define": "off",
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "no-alert": "error",
